@@ -1,16 +1,21 @@
-# Docker runtime data
-docker-data/
-volumes/
+# Build artifacts
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
 *.log
-*.pid
+logs/
+*.out
 
-# Grafana / Prometheus data
-grafana/data/
-prometheus/data/
-
-# IDE
+# IntelliJ IDEA
 .idea/
 *.iml
+
+# VS Code
 .vscode/
 
 # OS files
@@ -20,3 +25,13 @@ Thumbs.db
 # Environment
 .env
 .env.*
+*.env
+
+# Temp files
+*.tmp
+*.swp
+*.bak
+
+# Coverage / test artifacts
+coverage/
+*.exec
