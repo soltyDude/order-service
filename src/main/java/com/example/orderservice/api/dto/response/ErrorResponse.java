@@ -17,4 +17,8 @@ public record ErrorResponse(
     public ErrorResponse(int status, String error, String message, String path, String correlationId) {
         this(Instant.now(), status, error, message, path, correlationId, null);
     }
+
+    public ErrorResponse(int status, String error, String message, String path, String correlationId, Object details) {
+        this(Instant.now(), status, error, message, path, correlationId, details);
+    }
 }
