@@ -1,14 +1,14 @@
 package com.example.orderservice.domain.service;
 
-import com.example.orderservice.api.dto.OrderCancelDto;
-import com.example.orderservice.api.dto.OrderDto;
-import com.example.orderservice.api.dto.OrderItemDto;
-import com.example.orderservice.api.dto.OrderStatusDto;
-import com.example.orderservice.api.dto.OrderSummaryDto;
-import com.example.orderservice.api.dto.CompensationsDto;
-import com.example.orderservice.api.dto.ShippingAddressDto;
-import com.example.orderservice.api.dto.CreateOrderRequest;
-import com.example.orderservice.api.dto.ShippingAddressRequest;
+import com.example.orderservice.api.dto.response.OrderCancelDto;
+import com.example.orderservice.api.dto.response.OrderDto;
+import com.example.orderservice.api.dto.response.OrderItemDto;
+import com.example.orderservice.api.dto.response.OrderStatusDto;
+import com.example.orderservice.api.dto.response.OrderSummaryDto;
+import com.example.orderservice.api.dto.response.CompensationsDto;
+import com.example.orderservice.api.dto.response.ShippingAddressDto;
+import com.example.orderservice.api.dto.request.CreateOrderRequest;
+import com.example.orderservice.api.dto.request.ShippingAddressRequest;
 import com.example.orderservice.domain.model.Order;
 import com.example.orderservice.domain.model.ShippingAddress;
 import com.example.orderservice.infrastructure.persistence.entity.OrderReadModelEntity;
