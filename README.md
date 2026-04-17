@@ -1,5 +1,6 @@
-# Order Service
 [![CI](https://github.com/soltyDude/order-service/actions/workflows/ci.yml/badge.svg)](https://github.com/soltyDude/order-service/actions/workflows/ci.yml)
+# Order Service
+
 Saga orchestrator and order lifecycle manager for the [Order Management Platform](https://github.com/soltyDude/order-management-infra). Accepts orders, manages state transitions, coordinates payment and inventory services through Kafka, and serves optimized reads via CQRS.
 
 ## Responsibility
