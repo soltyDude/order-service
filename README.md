@@ -257,5 +257,3 @@ All external configs are overridable via environment variables (`DB_URL`, `DB_US
 ## Related
 
 - [order-management-infra](https://github.com/soltyDude/order-management-infra) — Docker Compose, documentation, project overview
-- [Architecture Decision Records](https://github.com/soltyDude/order-management-infra/blob/main/docs/adr-full.md)
-- [Full API Contract](https://github.com/soltyDude/order-management-infra/blob/main/docs/api-contract-full.md)
